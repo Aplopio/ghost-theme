@@ -214,13 +214,13 @@ h6 {
 }
 
 a {
-    color: #4A4A4A;
+    color: #337AB7;
     text-decoration: underline;
     transition: color ease 0.3s;
 }
 
 a:hover {
-    color: #111;
+    color: #23527C;
 }
 
 p, ul, ol, dl {
@@ -567,7 +567,7 @@ margin on the iframe, cause it breaks stuff. */
     height: 38px;
     padding: 0 15px 0 10px;
     border: transparent 1px solid;
-    color: #9EABB3;
+    color: #666;
     text-align: center;
     font-size: 12px;
     text-transform: uppercase;
@@ -593,7 +593,7 @@ margin on the iframe, cause it breaks stuff. */
     height: 38px;
     padding: 0 20px;
     border: transparent 1px solid;
-    color: #9EABB3;
+    color: #666;
     text-align: center;
     font-size: 12px;
     text-transform: uppercase;
@@ -647,7 +647,7 @@ margin on the iframe, cause it breaks stuff. */
 .back-button:hover,
 .subscribe-button:hover {
     border-color: #bfc8cd;
-    color: #9EABB3;
+    color: #666;
 }
 
 /* The details of your blog. Defined in ghost/settings/ */
@@ -658,6 +658,15 @@ margin on the iframe, cause it breaks stuff. */
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
     color: #fff;
+}
+
+.page-title a {
+    text-decoration: none;
+    color: #4A4A4A;
+}
+
+.page-title a:hover {
+	color: #000;
 }
 
 .page-description {
@@ -751,11 +760,11 @@ body:not(.post-template) .post-title {
 
 .read-more {
     text-decoration: none;
-    color: #08c; /* from bootstrap 2.3 */
+    color: #337AB7; /* from bootstrap 3 */
 }
 
 .read-more:hover {
-    color: #005580;
+    color: #23527C;
 }
 
 .post-meta {
