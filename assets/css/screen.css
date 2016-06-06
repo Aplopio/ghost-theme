@@ -1312,6 +1312,11 @@ body:not(.post-template) .post-title {
 /* Special styles for posts with no cover images */
 .read-next-story.no-cover {
     background: #f5f8fa;
+    transition: all 0.2s ease-in;
+}
+.read-next-story.no-cover:hover {
+    background-color: #f8fafc;
+    transition: all 0.2s ease-out;
 }
 
 .read-next-story.no-cover:before {
@@ -1326,9 +1331,15 @@ body:not(.post-template) .post-title {
 .read-next-story.no-cover h2 {
     color: rgba(0,0,0,0.8);
 }
+.read-next-story.no-cover:hover {
+    color: #337AB7;
+}
 
 .read-next-story.no-cover p {
     color: rgba(0,0,0,0.5);
+}
+.read-next-story.no-cover:hover p {
+    color: rgba(0,0,0,0.7);
 }
 
 /* if there are two posts without covers, put a border between them */
@@ -1345,6 +1356,7 @@ body:not(.post-template) .post-title {
     left: 0;
     right: 0;
     margin: 0;
+    background-color: #eff3f5;
 }
 
 
