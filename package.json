@@ -1,6 +1,12 @@
 {
-    "name": "Recruiterbox test",
-    "version": "1.1.0"
-    "author": "viky",
-    "description": "Theme for Recruiterbox Product updates"
+  "name": "recruiterbox-test",
+  "version": "1.1.0",
+  "author": "viky",
+  "description": "Theme for Recruiterbox Product updates",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-zip": "^3.0.2",
+    "run-sequence": "^1.1.4"
+  }
 }
